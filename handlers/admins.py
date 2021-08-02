@@ -37,7 +37,7 @@ async def devam(_, message: Message):
         await message.reply_text(f"**{BN} :-** 🙄 Hiçbirşey Durdurulmadı!")
     else:
         callsmusic.pytgcalls.resume_stream(message.chat.id)
-        await message.reply_text(f"**{BN} :-** 🥳 Devam Ediyor!")
+        await message.reply_text(f"**{BN} :-** 🥳 Devam Ediyor! @adonissprt ")
 
 
 @Client.on_message(command("bitir") & other_filters)
