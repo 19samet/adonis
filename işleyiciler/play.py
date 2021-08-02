@@ -24,7 +24,7 @@ async def oynat(_, message: Message):
     if audio:
         if round(audio.duration / 60) > DURATION_LIMIT:
             raise DurationLimitError(
-                f"**{bn} :-** 😕 Ses Dosyası Uzun {DURATION_LIMIT} minute(s) izin verilmez!\n🤐 Sağlanan ses, {audio.duration / 60} minute(s)"
+                f"**{bn} :-** 😖Bu ses beni aşar {DURATION_LIMIT} minute(s) izin verilmez!\n🤐 Sağlanan ses, {audio.duration / 60} minute(s)"
             )
 
         file_name = get_file_name(audio)
@@ -41,4 +41,4 @@ async def oynat(_, message: Message):
         await message.reply_text(f"**{bn} :-** 😉 Sıraya Alındı. Sırası= #{await callsmusic.queues.put(message.chat.id, file_path=file_path)} !")
     else:
         callsmusic.pytgcalls.join_group_call(message.chat.id, file_path)
-        await message.reply_text(f"**{bn} :-** 🥳 Oynatılıyor...")
+        await message.reply_text(f"**{bn} :-** 🥳 Oynatılıyor... @adonissprt ")
