@@ -2,7 +2,7 @@
 
 Ana Grup = [ Adonis](https://t.me/adonischt)
 
-
+(https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template
 <h3 align="centre"> Heroku   
 
 STRING_NAME i buradan alın ;
