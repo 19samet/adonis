@@ -1,12 +1,9 @@
 <h1 align="centre">🎶 Müzik Bot 🎶</h1>
 
-Ana Grup = [Luna News](https://t.me/lunanews)
+Ana Grup = [ Adonis](https://t.me/adonischt)
 
-Hazırlayan = [Luna News](https://t.me/lunanews)
 
-<h3 align="centre"> Heroku </h4>
-
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/doktorceset/LunaMusicPlayBotV1.git)
+<h3 align="centre"> Heroku   
 
 STRING_NAME i buradan alın ;
 
