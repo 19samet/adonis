@@ -9,7 +9,7 @@ from helpers.filters import other_filters2
 async def start(_, message: Message):
     await message.reply_text(
         f"""Ben **{bn}** !!
-Grubunuzun sesli sohbetinde müzik çalmanıza izin 😉
+ 𝄞𝄞 Merhaba ben grubunuzda müzik çalabiliyorum.𝄞𝄞
 Şu anda desteklediğim komutlar şunlardır:
 ☛ /oynat - __Yanıtlanan ses dosyasını veya YouTube videosunu bağlantı üzerinden çalar.__
 ☞ /durdur - __Sesli Sohbet Müziğini Duraklat.__
