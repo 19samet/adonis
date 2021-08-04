@@ -2,7 +2,7 @@
 
 Ana Grup = [ Adonis](https://t.me/adonischt)
 
-[![ Dağıt ](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/doktorceset/LunaMusicPlayBotV1.git)
+[![ Dağıt ](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/19samet/adonis)
 
 
 STRING_NAME i buradan alın ;
